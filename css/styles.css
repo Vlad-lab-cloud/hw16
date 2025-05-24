@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    margin: 0;
+    padding: 0;
+}
+.bg-box{
+   width: 1600px;
+   height: 800px;
+   background-color: darkgreen;
+   background-image:url(../images/grass.png), url(../images/lamp.png), url(../images/hedgehog.webp), url(../images/donut.png), url(../images/houseongrass.webp);
+   background-position:bottom right, top right, top left, top right,center;
+   background-repeat:repeat-x, repeat-x , repeat-y, repeat-y,no-repeat;
+   background-size:400px, 62px, 21px, 40px, 600px  ;
+}
